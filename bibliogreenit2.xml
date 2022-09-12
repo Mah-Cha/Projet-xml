@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="biblio-xml-stylesheet.xsl" ?>
+
+
+<Bibliographie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bibliogreenit2.xsd">
+<logo src="img/logo.png"></logo>
+  <articles_web>
+    <Article id="art1">
+      <Titre>Comment réduire l’impact des Data Centers sur l’environnement.</Titre>
+      <Auteur>
+        <nom>L.</nom>
+        <prenom>Bastien</prenom>
+        <fonction></fonction>
+      </Auteur>
+      <url>https://www.lebigdata.fr/data-centers-environnement</url>
+      <parution>
+        <jour>31</jour>
+        <mois>01</mois>
+        <annee>2020</annee>
+      </parution>
+      <caracteres>11443</caracteres>
+      <resume>Les Data Centers représentent un véritable fléau pour l’environnement. Alors que la production et la consommation de données sont en passe d’exploser à l’échelle mondiale, découvrez quelles sont les pistes à explorer pour réduire la consommation d’énergie et l’impact environnemental des centres de données…</resume>
+      <mots-cles>
+        <tag>business</tag>
+        <tag>data center</tag>
+        <tag>dossiers</tag>
+      </mots-cles>
+      <Illustration src="img/art1.jpg" type="img/jpg"></Illustration>
+      <Date_consultation>
+        <jour>12</jour>
+        <mois>04</mois>
+        <annee>2021</annee>
+      </Date_consultation>
+    </Article>
+
+    <Article id="art2">
+      <url>https://www.nicomak.eu/quest-ce-que-le-green-it/</url>
+      <Auteur>
+        <nom>Nicomak.eu</nom><prenom></prenom><fonction></fonction>
+      </Auteur>
+      <Titre>Qu'est-ce que le GREEN IT?</Titre>
+      <parution>
+        <jour>15</jour>
+        <mois>05</mois>
+        <annee>2020</annee>
+      </parution>
+      <Illustration src="img/art2.jfif"></Illustration>
+      <Date_consultation>
+        <jour>25</jour>
+        <mois>03</mois>
+        <annee>2021</annee>
+      </Date_consultation>
+      <resume>Le Green IT (ou encore Informatique vert et durable) représente aujourd’hui l’ensemble des technologies de l’information et de la communication dont l’empreinte écologique et sociétale ont été volontairement réduite et qui participe à atteindre les objectifs du développement durable. Il est important de rappeler que cette démarche ne se limite pas seulement aux différents impacts sur l’environnement mais s’intéresse aussi à la performance sociale et économique de ces activités.  </resume>
+      <mots-cles></mots-cles>
+    </Article>
+
+
+    <Article id="art3">
+      <url> https://cyberjustice.blog/index.php/2021/04/01/green-it-le-numerique-responsable/</url>
+      <Titre>Green it : le numérique responsable ;
+        <sous-titre>Le green It et ses enjeux : Les bonnes pratiques à adopter.</sous-titre>
+      </Titre>
+      <Auteur>
+        <nom>PEREZ</nom>
+        <prenom>Emilie</prenom>
+        <fonction>Master 2 Cyberjustice (promotion 2020-2021)</fonction>
+      </Auteur>
+      <parution>
+        <jour>01</jour>
+        <mois>04</mois>
+        <annee>2021</annee>
+      </parution>
+      <Illustration src="img/art3.png"></Illustration>
+      <Date_consultation>
+        <jour>30</jour>
+        <mois>03</mois>
+        <annee>2021</annee>
+      </Date_consultation>
+      <resume></resume>
+      <mots-cles>
+        <tag>AI</tag>
+        <tag>ASSISTANTS VOCAUX</tag>
+        <tag>AUTHENTIFICATION PAR BIOMÉTRIE</tag>
+        <tag>BIG DATA</tag>
+        <tag>BREXIT</tag>
+        <tag>CCPA</tag>
+        <tag>CENSURE</tag>
+        <tag>CHINE</tag>
+        <tag>CLOUD GAMING</tag>
+        <tag>CNIL</tag>
+        <tag>CONSENTEMENT</tag>
+        <tag>COOKIES</tag>
+        <tag>CORONAVIRUS</tag>
+        <tag>COVID-19</tag>
+        <tag>CYBERHARCÈLEMENT</tag>
+        <tag>DEEPFAKES</tag>
+        <tag>DONNÉES PERSONNELLES</tag>
+        <tag>DOSSIER MÉDICAL PARTAGÉ</tag>
+        <tag>DROIT</tag>
+        <tag>DROIT AU DÉRÉFÉRENCEMENT</tag>
+        <tag>DROIT PÉNAL</tag>
+        <tag>ENVIRONNEMENT</tag>
+        <tag>ESPACE</tag>
+        <tag>ETATS-UNIS</tag>
+        <tag>EUROPE</tag>
+        <tag>FAKE NEWS</tag>
+        <tag>FEMME</tag>
+        <tag>FRENCH TECH</tag>
+        <tag>GOOGLE</tag>
+        <tag>GOUVERNANCE DES DONNÉES</tag>
+        <tag>GREEN BANK</tag>
+        <tag>GREEN DATA CENTERS</tag>
+        <tag>INTELLIGENCE ARTIFICIELLE</tag>
+        <tag>JEUX VIDÉO</tag>
+        <tag>NEW TECH</tag>
+        <tag>OBJETS CONNECTÉS</tag>
+        <tag>POLITIQUE</tag>
+        <tag>POLITIQUE NUMÉRIQUE</tag>
+        <tag>PRÉVENTION</tag>
+        <tag>RECONNAISSANCE FACIALE</tag>
+        <tag>RÉSEAUX INFORMATIQUES</tag>
+        <tag>SANTÉ</tag>
+        <tag>SOCIÉTÉ</tag>
+        <tag>TECHNOLOGIES</tag>
+        <tag>ZONE BLANCHE</tag>
+      </mots-cles>
+    </Article>
+
+  </articles_web>
+
+
+  <videos>
+    <Video id="vid1">
+      <Plateforme_hebergement>Youtube</Plateforme_hebergement>
+      <url>https://www.youtube.com/watch?v=Vl16jImbHYU</url>
+      <Titre>Qu'est-ce que le Green IT ou l'informatique verte?</Titre>
+      <Auteur>
+        <nom>DORNBUSCH</nom>
+        <prenom>Philippe</prenom>
+      </Auteur>
+      <mots-cles>
+        <tag>#numeriqueresponsable</tag>
+        <tag>#greenit</tag>
+        <tag>#ecologie</tag>
+      </mots-cles>
+      <Nombre_de_vues>1487</Nombre_de_vues>
+      <parution>
+        <jour>26</jour>
+        <mois>10</mois>
+        <annee>2019</annee>
+      </parution>
+      <resume>Qu'est ce que le Green It ou l'informatique verte? Quelles sont les bonnes pratiques responsables pour une sobriété numérique ?  Les réponses en clair avec notre formation  à l'IPI Institut Poly Informatique.</resume>
+      <Duree>2:25</Duree>
+      <Illustration src="img/vid1.jpg" width="20%"></Illustration>
+      <!--<Illustration src="https://i.ytimg.com/an_webp/Vl16jImbHYU/mqdefault_6s.webp?du=3000&sqp=CJygx4QG&rs=AOn4CLAvdAzkKVvvElzQRXK1lszRriNewg"></Illustration>-->
+      <Date_consultation>
+        <jour>15</jour>
+        <mois>04</mois>
+        <annee>2021</annee>
+      </Date_consultation>
+    </Video>
+    <Video id="vid2">
+      <Plateforme_hebergement>Youtube</Plateforme_hebergement>
+      <url>https://www.youtube.com/watch?v=JLEocFyAW68</url>
+      <Titre>Le Numérique peut-il être vert ? | TOTEM Green IT</Titre>
+      <parution>
+        <jour>23</jour>
+        <mois>03</mois>
+        <annee>2021</annee>
+      </parution>
+      <Auteur>
+        <nom>Bpi France</nom>
+        <prenom></prenom>
+        <fonction></fonction>
+      </Auteur>
+      <resume>Une introduction par Véronique Torner, Co-fondatrice et Présidente d'Alter Way, Administratrice Syntec Numérique, présidente du programme Numérique Responsable, en charge de l'initiative Planet Tech'Care, et Présidente Open CIO Summit (10 minutes).</resume>
+      <Duree>1:02:44</Duree>
+      <Nombre_de_vues>52</Nombre_de_vues>
+      <Illustration src="img/vid2.jpg" width="20%"></Illustration>
+      <!--<Illustration src="https://i.ytimg.com/an_webp/JLEocFyAW68/mqdefault_6s.webp?du=3000&sqp=CMLsxoQG&rs=AOn4CLAALao2n9D5cIZp_bI4K9RhOlyV1g" type="image/webp"></Illustration>-->
+      <Date_consultation>
+        <jour>30</jour>
+        <mois>03</mois>
+        <annee>2021</annee>
+      </Date_consultation>
+      <mots-cles><tag></tag></mots-cles>
+    </Video>
+
+    <Video id="vid3">
+      <Plateforme_hebergement>Youtube</Plateforme_hebergement>
+      <url>https://www.youtube.com/watch?v=iiHxCX76bYU</url>
+      <Titre>L'impact des clouds sur l'environnement. ABE-RTS</Titre>
+      <mots-cles>
+        <tag>#numeriqueresponsable</tag>
+        <tag>#greenit</tag>
+        <tag>#ecologie</tag>
+      </mots-cles>
+      <Nombre_de_vues>45 830</Nombre_de_vues>
+      <parution>
+        <jour>22</jour>
+        <mois>11</mois>
+        <annee>2017</annee>
+      </parution>
+      <Auteur>
+        <nom>RTS - Radio Télévision Suisse</nom>
+        <prenom></prenom>
+        <fonction></fonction>
+      </Auteur>
+      <resume>Reportage de la chaine RTS sur l’impact des clouds sur l’environnement.Alexandre Patti Gestionnaire énergie Infomaniak explique. </resume>
+      <Duree>5:06</Duree>
+      <!--<Illustration src="https://i.ytimg.com/an_webp/iiHxCX76bYU/mqdefault_6s.webp?du=3000&sqp=COCox4QG&rs=AOn4CLAggfQQXzvXQMS20-iU7SZrBROhEQ"></Illustration>-->
+      <Date_consultation>
+        <jour>30</jour>
+        <mois>03</mois>
+        <annee>2021</annee>
+      </Date_consultation>
+      <Illustration src="img/vid3.jpg" type="image/jpg" width="20%"></Illustration>
+    </Video>
+  </videos>
+
+  <publications>
+
+    <publication id="publi1">
+      <url>https://journals.openedition.org/terminal/1927</url>
+      <Titre>Le numérique au service de comportements durables ? Premiers pas des entreprises de « Transition Techs » </Titre>
+      <Auteurs>
+        <auteur><nom>PEUGEOT</nom> <prenom>Valérie</prenom><fonction></fonction></auteur>
+        <auteur><nom>BEUSCART</nom><prenom>Jean-Samuel</prenom><fonction></fonction></auteur>
+        <auteur><nom>PHARABOD</nom> <prenom>Anne-Sylvie</prenom><fonction></fonction></auteur>
+        <auteur><nom>JOSSET</nom> <prenom>Jean-Marc</prenom><fonction></fonction></auteur>
+      </Auteurs>
+      <type_document>article scientifique</type_document>
+      <revue>
+        <nom>TERMINAL</nom>
+        <numero>122/2018</numero>
+        <DOI>https://doi.org/10.4000/terminal.1927</DOI>
+      </revue>
+
+      <Illustration src="img/publi1.jpeg" type="image/jpeg"></Illustration>
+      <resume> Alors que les pouvoirs publics appellent de plus en plus les individus à modifier leurs comportements dans un sens plus « durable », l’innovation numérique n’est guère mobilisée en ce sens et reste comme à l’écart de cette politique environnementale. De nouvelles entreprises entendent combler ce vide et développent des dispositifs numériques susceptibles d’aider les utilisateurs dans l’adoption de « petits gestes verts », acteurs que nous proposons d’appeler « Transition Techs ». En s’appuyant sur une exploration en ligne de 120 initiatives et d’entretiens avec des entrepreneurs porteurs de tels dispositifs (n=9), l’article s’attache à décrire ces innovateurs numériques d’un genre nouveau, à en décrypter les trajectoires, intentions et positionnements, ainsi que les modèles économiques. À la lumière de ces spécificités, nous constatons que cet espace en cours de constitution reste fragile, parcouru de tensions, loin d’un monde social solidifié.</resume>
+      <Plan>
+        <chapitre>Introduction</chapitre>
+        <chapitre>Axe 1. Méthodologie et premières catégorisations</chapitre>
+        <chapitre>Axe 2. Finalités, statuts, positionnements : des horizons partagés</chapitre>
+        <chapitre>Axe 3. Des modèles économiques bégayants, à la recherche de cohérence</chapitre>
+        <chapitre>Axe 4: Facteurs centrifuges : trajectoires et faibles interactions</chapitre>
+        <chapitre>Conclusion</chapitre>
+      </Plan>
+      <Date_consultation>
+        <jour>15</jour>
+        <mois>04</mois>
+        <annee>2021</annee>
+      </Date_consultation>
+      <parution>
+        <jour>30</jour>
+        <mois>06</mois>
+        <annee>2018</annee>
+      </parution>
+    </publication>
+
+    <publication id="publi2">
+      <Titre>Baromètres des pratiques green it des entreprises en france 2020</Titre>
+
+      <Auteurs>
+        <auteur><nom>RIBAULT</nom> <prenom>Romuald</prenom> <fonction>Directeur Marketing – Ecologic – Pilote</fonction></auteur>
+        <auteur><nom>AKRICH</nom> <prenom>Ken</prenom> <fonction>Chargé de mission RSE – CGI</fonction></auteur>
+        <auteur><nom>BOILLERAULT</nom>  <prenom>Lise</prenom> <fonction>Chargée de mission – AGIT</fonction></auteur>
+        <auteur><nom>CHALLO</nom> <prenom>Jérôme</prenom> <fonction>Responsable RSE Europe de l’Ouest et du Sud – CGI</fonction></auteur>
+        <auteur><nom>FOREST</nom> <prenom>Bruno</prenom> <fonction>Directeur Qualité et Sécurité – Interxion</fonction></auteur>
+        <auteur><nom>HURTADO</nom> <prenom>Oscar</prenom> <fonction>Ingénieur d’affaires GNV – GRdF</fonction></auteur>
+        <auteur><nom>LE BRUSQ</nom> <prenom>Stéphani</prenom>e <fonction>Consultant – OM Conseil</fonction></auteur>
+        <auteur><nom>LOUVEL</nom> <prenom>Alexane</prenom> <fonction>Community Manager – Madison Communication</fonction></auteur>
+        <auteur><nom>MESPLEDE</nom> <prenom>Thomas</prenom> <fonction>Chargé de mission – AGIT</fonction></auteur>
+        <auteur><nom>VALLÉE OUDART</nom> <prenom>Patricia</prenom> <fonction>Responsable QSE et Responsabilité Sociétale – SCC</fonction></auteur>
+        <auteur><nom>OUFFOUE</nom> <prenom>Georges</prenom> <fonction>Associate Research Manager – APL</fonction></auteur>
+        <auteur><nom>TIRANE</nom> <prenom>Salem</prenom> <fonction>Directeur de Marché IT et High-Tech – Olinn Finance</fonction></auteur>
+        <auteur><nom>TORD</nom> <prenom>Alain</prenom> <fonction>Consultant – B et L evolution</fonction></auteur>
+        <auteur> <nom>RAVEAUX</nom>  <prenom>Elise</prenom> <fonction>Chargée de mission RSE – CGI</fonction></auteur>
+        <auteur><nom>RAYNAL</nom>  <prenom>Julie</prenom> <fonction>Business Manager – Olinn IT</fonction></auteur>
+        <auteur><nom>RUDOWSKI</nom>  <prenom>Thierry</prenom>  <fonction>CEO et Co-fondateur – Zen’to</fonction></auteur>
+        <auteur><prenom>Valerie</prenom> <nom>SCHNEIDER</nom>  <fonction>Formateur en Développement Durable et RSE – Valerie Schneider Conseil</fonction> </auteur>
+        <auteur><prenom>Laurent</prenom> <nom>VALET</nom> <fonction>Président Fondateur – IT2D</fonction></auteur>
+        <auteur><prenom>Caroline</prenom> <nom>VATEAU</nom>  <fonction>Directrice BU Numérique Responsable – APL</fonction></auteur>
+        <auteur><prenom>Tristan</prenom> <nom>LABAUME</nom>  <fonction>Directeur Général – Greenvision </fonction></auteur></Auteurs>
+
+        <concepteurs>
+          <concepteur><prenom>Romuald</prenom> <nom>RIBAULT</nom> <fonction>Ecologic</fonction></concepteur>
+          <concepteur><prenom>Erwan</prenom> <nom>AUTRET</nom> <fonction>ADEME</fonction></concepteur>
+          <concepteur><prenom>Thierry</prenom> <nom>CHALUMEAU</nom>  <fonction>OpinionWay</fonction></concepteur>
+          <concepteur><prenom>Thomas</prenom> <nom>MESPLEDE</nom>  <fonction>Alliance Green IT</fonction></concepteur>
+          <concepteur><prenom>Julie</prenom> <nom>CHIARANDINI BOLIOLI</nom> <fonction>Origin Art Studio</fonction></concepteur>
+        </concepteurs>
+        <graphisme><prenom>Julie</prenom> <nom>CHIARANDINI BOLIOLI</nom> – <fonction>Origin Art Studio</fonction> </graphisme>
+        <editeur>Association Alliance Green It (AGIT)</editeur>
+        <pages> 153 </pages>
+        <url>https://alliancegreenit.org/media/ressource-publication/agit-barometre-green-it-2020-1-3.pdf</url>
+        <Illustration src="img/publi2.png" type="image/png">></Illustration>
+        <resume>Nous avons le plaisir de vous informer que la troisième édition du baromètre Green IT des entreprises en France est désormais disponible. Ce baromètre, soutenu par l'ADEME, est le résultat d’une enquête réalisée entre le 1er octobre 2019 et le 1er janvier 2020. Avec un panel de 672 entreprises et organisations sondées, l’édition 2020 représente la plus large enquête B2B menée par l’AGIT depuis sa création. L’objectif du baromètre est d’évaluer les gisements d'équipements informatiques et bureautiques présents dans les entreprises et plus généralement la maturité des entreprises en France sur les bonnes pratique du numérique responsable. Pour en avoir une vision globale, 26 indicateurs clés répartis entre 8 grandes thématiques ont été élaborés : les infrastructures informatiques, les data centers, l’impression, la ﬁn de vie, les achats, la gouvernance, les postes de travail et les applications. Cette étude a vocation à sensibiliser largement les entreprises autour de bonnes pratiques reconnues par une communauté d’experts. Nous espérons que nos résultats favoriseront de nombreux échanges et mobiliseront autour de la nécessité d’adopter un numérique plus responsable, durable et résilient. </resume>
+        <Date_consultation>
+          <jour>20</jour>
+          <mois>04</mois>
+          <annee>2021</annee>
+        </Date_consultation>
+        <parution>
+          <jour></jour>
+          <mois>03</mois>
+          <annee>2020</annee>
+        </parution>
+
+      </publication>
+
+      <publication id="publi3">
+        <url>https://journals.openedition.org/netcom/1610</url>
+        <Titre>Dispositifs numériques et villes durables. De l'interaction à l'engagement</Titre>
+        <Auteurs>
+          <auteur>
+            <prenom>Akila</prenom>
+            <nom>NEDJAR-GUERRE</nom>
+            <fonction></fonction>
+          </auteur></Auteurs>
+          <type_document>Appel à contribution</type_document>
+          <revue>
+            <nom>NETCOM</nom>
+            <numero></numero>
+            <DOI></DOI></revue>
+            <parution>
+              <jour>14</jour>
+              <mois>01</mois>
+              <annee>2019</annee>
+            </parution>
+            <Illustration src="img/publi3.png" type="image/png">></Illustration>
+            <Plan>
+              <chapitre>Axe 1. Traces de l'usager dans le dispositif</chapitre>
+              <chapitre>Axe 2. Usages et réceptions cognitives</chapitre>
+              <chapitre>Axe 3. Dispositifs et citoyenneté environnementale</chapitre>
+              <chapitre>Soumissions d'articles scientifiques</chapitre>
+              <chapitre>Soumission de notes scientifiques</chapitre>
+              <chapitre>Instructions aux auteurs</chapitre>
+              <chapitre>Calendrier indicatif</chapitre>
+            </Plan>
+            <Date_consultation>
+              <jour>02</jour>
+              <mois>04</mois>
+              <annee>2021</annee>
+            </Date_consultation>
+            <resume></resume>
+          </publication>
+
+
+          <publication id="publi4">
+            <Titre> iNUM : impacts environnementaux du numérique en France</Titre>
+            <type_document>étude : Analyse du Cycle de Vie (ACV) simplifiée de type screening</type_document>
+            <parution>
+              <jour>30</jour>
+              <mois>01</mois>
+              <annee>2021</annee>
+            </parution >
+            <pages>21</pages>
+            <url>https://www.greenit.fr/impacts-environnementaux-du-numerique-en-france/</url>
+            <Auteurs>
+              <auteur><prenom>Frédéric</prenom> <nom>BORDAGE</nom> <fonction> GreenIT.fr</fonction> </auteur>
+              <auteur><prenom>Lorraine</prenom> <nom>DE MONTENAY</nom> <fonction>GreenIT.fr</fonction></auteur>
+              <auteur><prenom>Olivier</prenom> <nom>VERGEYNST</nom> <fonction>Green IT Belgium</fonction></auteur>
+            </Auteurs>
+            <Contributeurs>
+              <contributeur><prenom>Adrien</prenom> <nom>MONTAGUT</nom><fonction>Commown</fonction></contributeur>
+              <contributeur><prenom>Céline</prenom> <nom>BERTHAUT</nom>, <fonction>celineberthaut.fr</fonction></contributeur>
+              <contributeur> <prenom>Geneviève</prenom> <nom>VAN DIEST</nom> <fonction>visuelle.be</fonction></contributeur>
+              <contributeur><prenom>Samuel</prenom> <nom>SAUVAGE</nom> <fonction>Halte à l’obsolescence programmée (HOP)</fonction></contributeur>
+            </Contributeurs>
+            <Revue_critique>
+              <critique><prenom>Caroline</prenom> <nom>SOHN</nom>, <fonction>consultante indépendante en numérique responsable</fonction></critique>
+              <critique><prenom>Luc</prenom> <nom>SOREL</nom>, <fonction>ingénieur Zenika</fonction></critique>
+              <critique><prenom>Gauthier</prenom> <nom>ROUSSILHE</nom>, <fonction>designer indépendant</fonction></critique>
+            </Revue_critique>
+            <Contact>collectif@greenit.fr</Contact>
+            <Date_consultation>
+              <jour>26</jour>
+              <mois>04</mois>
+              <annee>2021</annee>
+            </Date_consultation>
+            <resume>Réalisée par un collectif d’experts indépendants entre janvier et juin 2020, cette étude, baptisée « iNum » vise à quantifier les impacts environnementaux du numérique en France et à identifier des pistes d’actions adaptées aux spécificités françaises.
+
+Cette étude s’appuie sur une méthodologie d’Analyse du Cycle de Vie (ACV) de type screening.
+
+Les résultats publiés sont des résultats finaux après revue de pairs. Ils ont été légèrement mis à jour le 30 janvier 2021 (uniquement les assiettes de comparaisons des impacts qui n’ont pas évolués).</resume>
+            <Illustration src="img/publi4.png" type="image/png"> width="20%"></Illustration>
+          </publication>
+        </publications>
+
+        <podcasts>
+          <podcast id="podcast1">
+            <url>https://www.franceculture.fr/emissions/de-cause-a-effets-le-magazine-de-lenvironnement/de-cause-a-effets-le-magazine-de-lenvironnement-du-mardi-05-janvier-2021 </url>
+            <Titre> Le numérique peut-il être écologique et responsable ?</Titre>
+            <Auteurs>
+              <auteur>
+                <fonction>Animatrice à Radio France Culture</fonction>
+                <prenom>Aurélie</prenom>
+                <nom>LUNEAU</nom>
+              </auteur>
+            </Auteurs>
+            <Emission>DE CAUSE À EFFETS, LE MAGAZINE DE L'ENVIRONNEMENT </Emission>
+            <Illustration src="img/podcast1.jpg"></Illustration>
+            <resume> Décrié pour son rôle dans le réchauffement climatique, le numérique serait responsable de 4% des émissions de gaz à effet de serre et pourrait afficher un taux de 8% d'ici 2025. Or, force est de constater qu'il remplit aussi un rôle indispensable, comme il le fut montré durant les confinements face
+              à la pandémie de Covid-19. Quels sont les impacts, les bienfaits et les méfaits de cette technologie ? Un numérique vert, raisonné et sobre, est-il en passe de voir le jour ?
+              En quoi les législateurs et les citoyens pourraient bien faire évoluer le marché ? Comment repenser notre dépendance aux technologies digitales ?
+              En partenariat avec Chut ! Le magazine à l'écoute du numérique, nous nous penchons, ce soir, sur ces questions qui interrogent aussi le devenir de nos sociétés ;
+              et nous sommes en direct avec nos trois invités Frédéric Bordage, fondateur du collectif GreenIT, auteur du livre "Sobriété numérique" paru chez Buchet-Chastel.
+              Avec nous également Vincent Courboulay, ingénieur et maître de conférences en informatique à La Rochelle Université. Auteur du livre "Vers un numérique responsable"
+              qui paraît ce mois-ci chez Actes Sud. Et Sophie Comte, co-fondatrice de Chut ! Le magazine à l'écoute du numérique.</resume>
+              <lien_podcast> <p><iframe src="https://www.franceculture.fr/player/export-reecouter?content=047bb37b-b12f-4ae8-8709-cb623c13ad6a" width="1481" frameborder="0" scrolling="no" height="137"></iframe></p> </lien_podcast>
+              <Duree>57:00</Duree>
+              <Date_consultation>
+                <jour>15</jour>
+                <mois>04</mois>
+                <annee>2021</annee>
+              </Date_consultation>
+              <parution>
+                <jour>05</jour>
+                <mois>01</mois>
+                <annee>2021</annee>
+              </parution>
+            </podcast>
+          </podcasts>
+
+        </Bibliographie>

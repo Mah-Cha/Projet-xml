@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Bibliographie">
+    <xs:complexType><!--cette balise signifie qu’il s’agit d’un élément composé d’autres éléments.-->
+      <xs:sequence>
+        <xs:element ref="articles_web"/>
+
+        <xs:element ref="videos"/>
+        <xs:element ref="publications"/>
+        <xs:element ref="podcasts"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="articles_web"><!-- la balise "element"  reprend le nom de la balise dans le fichier xml. Ici elle est suivie de l'attribut "name", qui permet de préciser le type de donnée qui peut être saisie (ex: string, short, float …)-->
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Article" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Article">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="Auteur"/>
+        <xs:element ref="Titre"/>
+        <xs:element name="url" type="xs:string"/>
+        <xs:element ref="parution"/>
+        <xs:element name="caracteres" type="xs:string"/>
+        <xs:element name="resume" type="xs:string"/>
+        <xs:element ref="Illustration"/>
+        <xs:element ref="mots-cles"/>
+        <xs:element ref="Date_consultation"/>
+      </xs:choice>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Titre">
+    <xs:complexType mixed="true">
+      <xs:sequence minOccurs="0">
+        <xs:element name="sous-titre" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Auteur">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="prenom" type="xs:string"/>
+        <xs:element name="fonction" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="parution">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="jour" type="xs:string"/>
+        <xs:element name="mois" type="xs:string"/>
+        <xs:element name="annee" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mots-cles">
+    <xs:complexType>
+      <xs:sequence minOccurs="0">
+        <xs:element name="tag" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Illustration">
+    <xs:complexType>
+      <xs:attribute name="src" type="xs:string" use="required"/>
+      <xs:attribute name="type" type="xs:string"/>
+      <xs:attribute name="width" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Date_consultation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="jour" type="xs:string"/>
+        <xs:element name="mois" type="xs:string"/>
+        <xs:element name="annee" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="videos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Video" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Video">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Plateforme_hebergement" type="xs:string"/>
+        <xs:element name="url" type="xs:string"/>
+        <xs:element ref="Titre"/>
+        <xs:element ref="mots-cles"/>
+        <xs:element ref="parution"/>
+        <xs:element ref="Auteur"/>
+        <xs:element name="Nombre_de_vues" type="xs:string"/>
+        <xs:element name="resume" type="xs:string"/>
+        <xs:element name="Duree" type="xs:string"/>
+        <xs:element ref="Illustration"/>
+        <xs:element ref="Date_consultation"/>
+      </xs:choice>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publications">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="publication" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="publication">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="Titre"/>
+        <xs:element name="type_document" type="xs:string"/>
+        <xs:element ref="Auteurs"/>
+        <xs:element ref="concepteurs"/>
+        <xs:element ref="graphisme"/>
+        <xs:element name="editeur" type="xs:string"/>
+        <xs:element name="pages" type="xs:string"/>
+        <xs:element name="url" type="xs:string"/>
+        <xs:element ref="revue"/>
+        <xs:element ref="parution"/>
+        <xs:element ref="Contributeurs"/>
+        <xs:element ref="Revue_critique"/>
+        <xs:element name="Contact" type="xs:string"/>
+        <xs:element ref="Illustration"/>
+        <xs:element ref="Plan"/>
+        <xs:element name="resume" type="xs:string"/>
+        <xs:element ref="Date_consultation"/>
+      </xs:choice>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Auteurs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="auteur" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="auteur">
+    <xs:complexType mixed="true">
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="fonction" type="xs:string"/>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="prenom" type="xs:string"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="revue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="numero" type="xs:string"/>
+        <xs:element name="DOI" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Plan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="chapitre" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="concepteurs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="concepteur" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="concepteur">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="prenom" type="xs:string"/>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="fonction" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="graphisme">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element name="prenom" type="xs:string"/>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="fonction" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Contributeurs">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="contributeur" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contributeur">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element name="prenom" type="xs:string"/>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="fonction" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Revue_critique">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="critique" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="critique">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element name="prenom" type="xs:string"/>
+        <xs:element name="nom" type="xs:string"/>
+        <xs:element name="fonction" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="podcasts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="podcast"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="podcast">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="url" type="xs:string"/>
+        <xs:element ref="Titre"/>
+        <xs:element ref="Auteurs"/>
+        <xs:element name="Emission" type="xs:string"/>
+        <xs:element ref="Illustration"/>
+        <xs:element name="resume" type="xs:string"/>
+        <xs:element ref="lien_podcast"/>
+        <xs:element name="Duree" type="xs:string"/>
+        <xs:element ref="Date_consultation"/>
+        <xs:element ref="parution"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lien_podcast">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="iframe"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="iframe">
+    <xs:complexType>
+      <xs:attribute name="frameborder" type="xs:string" use="required"/>
+      <xs:attribute name="height" type="xs:string" use="required"/>
+      <xs:attribute name="scrolling" type="xs:string" use="required"/>
+      <xs:attribute name="src" type="xs:string" use="required"/>
+      <xs:attribute name="width" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
